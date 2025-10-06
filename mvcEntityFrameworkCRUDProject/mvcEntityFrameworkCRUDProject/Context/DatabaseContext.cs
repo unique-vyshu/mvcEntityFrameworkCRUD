@@ -10,5 +10,9 @@ namespace mvcEntityFrameworkCRUDProject.Context
         {
         }
         public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Emp> Emps { get; set; }
     }
 }
